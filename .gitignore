@@ -8,6 +8,8 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/ext/device/LibMTPBase/Makefile
+/ext/device/LibMTPBase/*.o
 
 ## Specific to RubyMotion:
 .dat*
