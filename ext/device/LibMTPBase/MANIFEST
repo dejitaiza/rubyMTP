@@ -1,0 +1,14 @@
+ext/device/LibMTPBase/extconf.rb
+ext/device/LibMTPBase/mtp_album.c
+ext/device/LibMTPBase/mtp_device.c
+ext/device/LibMTPBase/mtp_entry.c
+ext/device/LibMTPBase/mtp_file.c
+ext/device/LibMTPBase/mtp_folder.c
+ext/device/LibMTPBase/mtp_main.c
+ext/device/LibMTPBase/mtp_playlist.c
+ext/device/LibMTPBase/mtp_proto.h
+ext/device/LibMTPBase/mtp_storage.c
+ext/device/LibMTPBase/mtp_track.c
+lib/device/LibMTP.rb
+LGPL.TXT
+Readme.txt
