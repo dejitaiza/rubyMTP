@@ -72,7 +72,7 @@ static VALUE folder_alloc(VALUE klass)
 /*
  *  call-seq:
  *     folder.to_hash() -> Hash containing folder data
- *  
+ *
  *  Returns a hash containing the data for this folder.
  *
  */
@@ -108,7 +108,7 @@ static VALUE folder_to_hash(VALUE self)
 /*
  *  call-seq:
  *     folder[key] -> Folder value for key.
- *  
+ *
  *  Returns a value for the specified key.
  *
  */
@@ -122,7 +122,7 @@ static VALUE folder_aref(VALUE self, VALUE name)
 /*
  *  call-seq:
  *     folder[key] = value -> value
- *  
+ *
  *  Sets the value for the specified key.
  *
  */
@@ -173,9 +173,9 @@ static VALUE folder_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	folder->name = strdup(RSTRING(v_string)->ptr);
+	folder->name = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -206,7 +206,7 @@ static VALUE folder_populate(VALUE array, VALUE self)
 /*
  *  call-seq:
  *     LibMTP::Folder.new(hash) -> New LibMTP::Folder object.
- *  
+ *
  *  Creates a new LibMTP::Folder object.  If new is called without any
  *  arguments, the object will be initialized with default values.
  *  Otherwise, a hash can be passed containing the initial values for
@@ -247,8 +247,8 @@ static VALUE folder_init(int argc, VALUE *argv, VALUE self)
 
 /*
  *  call-seq:
- *     folder.<=> -> -1, 0, 1 
- *  
+ *     folder.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Folder objects by their folder ID.
  *
  */

@@ -71,7 +71,7 @@ static VALUE album_alloc(VALUE klass)
 /*
  *  call-seq:
  *     LibMTP::Album.new() -> New LibMTP::Album object.
- *  
+ *
  *  Creates a new LibMTP::Album object.
  *
  */
@@ -85,7 +85,7 @@ static VALUE album_init(VALUE self)
 /*
  *  call-seq:
  *     album.id -> Album ID.
- *  
+ *
  *  Returns the album ID as an integer.
  *
  */
@@ -104,7 +104,7 @@ static VALUE album_id(VALUE self)
 /*
  *  call-seq:
  *     album.id = value -> album.
- *  
+ *
  *  Sets the integer album ID.
  *
  */
@@ -126,7 +126,7 @@ static VALUE album_set_id(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     album.name -> Album name string.
- *  
+ *
  *  Returns the album name as a string.
  *
  */
@@ -153,7 +153,7 @@ static VALUE album_name(VALUE self)
 /*
  *  call-seq:
  *     album.name = value -> album.
- *  
+ *
  *  Sets the album name string.
  *
  */
@@ -179,9 +179,9 @@ static VALUE album_set_name(VALUE self, VALUE value)
   {
     string = StringValue(value);
 
-    if((RSTRING(string)->ptr != NULL) && (RSTRING(string)->len > 0))
+    if((RSTRING(string)->as.heap.ptr != NULL) && (RSTRING(string)->as.heap.len > 0))
     {
-      album->name = strdup(RSTRING(string)->ptr);
+      album->name = strdup(RSTRING(string)->as.heap.ptr);
     }
   }
 
@@ -193,7 +193,7 @@ static VALUE album_set_name(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     album.artist -> Album artist name string.
- *  
+ *
  *  Returns the album artist name as a string.
  *
  */
@@ -220,7 +220,7 @@ static VALUE album_artist(VALUE self)
 /*
  *  call-seq:
  *     album.artist = value -> album.
- *  
+ *
  *  Sets the album artist name string.
  *
  */
@@ -246,9 +246,9 @@ static VALUE album_set_artist(VALUE self, VALUE value)
   {
     string = StringValue(value);
 
-    if((RSTRING(string)->ptr != NULL) && (RSTRING(string)->len > 0))
+    if((RSTRING(string)->as.heap.ptr != NULL) && (RSTRING(string)->as.heap.len > 0))
     {
-      album->artist = strdup(RSTRING(string)->ptr);
+      album->artist = strdup(RSTRING(string)->as.heap.ptr);
     }
   }
 
@@ -260,7 +260,7 @@ static VALUE album_set_artist(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     album.genre -> Album genre string.
- *  
+ *
  *  Returns the album genre as a string.
  *
  */
@@ -287,7 +287,7 @@ static VALUE album_genre(VALUE self)
 /*
  *  call-seq:
  *     album.genre = value -> album.
- *  
+ *
  *  Sets the album genre string.
  *
  */
@@ -313,9 +313,9 @@ static VALUE album_set_genre(VALUE self, VALUE value)
   {
     string = StringValue(value);
 
-    if((RSTRING(string)->ptr != NULL) && (RSTRING(string)->len > 0))
+    if((RSTRING(string)->as.heap.ptr != NULL) && (RSTRING(string)->as.heap.len > 0))
     {
-      album->genre = strdup(RSTRING(string)->ptr);
+      album->genre = strdup(RSTRING(string)->as.heap.ptr);
     }
   }
 
@@ -327,7 +327,7 @@ static VALUE album_set_genre(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     album.length -> Album length.
- *  
+ *
  *  Returns the number of tracks in the album as an integer.
  *
  */
@@ -346,7 +346,7 @@ static VALUE album_length(VALUE self)
 /*
  *  call-seq:
  *     album.tracks -> Array of track IDs.
- *  
+ *
  *  Returns an array containing a set of integer track IDs.
  *
  */
@@ -375,7 +375,7 @@ static VALUE album_tracks(VALUE self)
 /*
  *  call-seq:
  *     album[index] -> Track ID for index.
- *  
+ *
  *  Returns the integer track ID for the specified index.
  *
  */
@@ -414,7 +414,7 @@ static VALUE album_aref(VALUE self, VALUE index)
 /*
  *  call-seq:
  *     album[index] = id -> album
- *  
+ *
  *  Sets the track ID specified by index to the given ID.
  *
  */
@@ -449,8 +449,8 @@ static VALUE album_aset(VALUE self, VALUE index, VALUE value)
 
 /*
  *  call-seq:
- *     album.<=> -> -1, 0, 1 
- *  
+ *     album.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Album objects by their album ID.
  *
  */

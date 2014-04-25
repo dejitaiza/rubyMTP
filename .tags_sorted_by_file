@@ -1,0 +1,549 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+M000001	doc/reference/classes/LibMTP.html	/^        <a name="M000001"><\/a>$/;"	a
+M000002	doc/reference/classes/LibMTP.html	/^        <a name="M000002"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP.html	/^  function toggleCode( id ) {$/;"	f
+M000045	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000045"><\/a>$/;"	a
+M000046	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000046"><\/a>$/;"	a
+M000047	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000047"><\/a>$/;"	a
+M000048	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000048"><\/a>$/;"	a
+M000049	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000049"><\/a>$/;"	a
+M000050	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000050"><\/a>$/;"	a
+M000051	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000051"><\/a>$/;"	a
+M000052	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000052"><\/a>$/;"	a
+M000053	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000053"><\/a>$/;"	a
+M000054	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000054"><\/a>$/;"	a
+M000055	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000055"><\/a>$/;"	a
+M000056	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000056"><\/a>$/;"	a
+M000057	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000057"><\/a>$/;"	a
+M000058	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000058"><\/a>$/;"	a
+M000059	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000059"><\/a>$/;"	a
+M000060	doc/reference/classes/LibMTP/Album.html	/^        <a name="M000060"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Album.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Album.html	/^  function toggleCode( id ) {$/;"	f
+M000008	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000008"><\/a>$/;"	a
+M000009	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000009"><\/a>$/;"	a
+M000010	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000010"><\/a>$/;"	a
+M000011	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000011"><\/a>$/;"	a
+M000012	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000012"><\/a>$/;"	a
+M000013	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000013"><\/a>$/;"	a
+M000014	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000014"><\/a>$/;"	a
+M000015	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000015"><\/a>$/;"	a
+M000016	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000016"><\/a>$/;"	a
+M000017	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000017"><\/a>$/;"	a
+M000018	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000018"><\/a>$/;"	a
+M000019	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000019"><\/a>$/;"	a
+M000020	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000020"><\/a>$/;"	a
+M000021	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000021"><\/a>$/;"	a
+M000022	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000022"><\/a>$/;"	a
+M000023	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000023"><\/a>$/;"	a
+M000024	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000024"><\/a>$/;"	a
+M000025	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000025"><\/a>$/;"	a
+M000026	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000026"><\/a>$/;"	a
+M000027	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000027"><\/a>$/;"	a
+M000028	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000028"><\/a>$/;"	a
+M000029	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000029"><\/a>$/;"	a
+M000030	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000030"><\/a>$/;"	a
+M000031	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000031"><\/a>$/;"	a
+M000032	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000032"><\/a>$/;"	a
+M000033	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000033"><\/a>$/;"	a
+M000034	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000034"><\/a>$/;"	a
+M000035	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000035"><\/a>$/;"	a
+M000036	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000036"><\/a>$/;"	a
+M000037	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000037"><\/a>$/;"	a
+M000038	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000038"><\/a>$/;"	a
+M000039	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000039"><\/a>$/;"	a
+M000040	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000040"><\/a>$/;"	a
+M000041	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000041"><\/a>$/;"	a
+M000042	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000042"><\/a>$/;"	a
+M000043	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000043"><\/a>$/;"	a
+M000044	doc/reference/classes/LibMTP/Device.html	/^        <a name="M000044"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Device.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Device.html	/^  function toggleCode( id ) {$/;"	f
+M000083	doc/reference/classes/LibMTP/Entry.html	/^        <a name="M000083"><\/a>$/;"	a
+M000084	doc/reference/classes/LibMTP/Entry.html	/^        <a name="M000084"><\/a>$/;"	a
+M000085	doc/reference/classes/LibMTP/Entry.html	/^        <a name="M000085"><\/a>$/;"	a
+M000086	doc/reference/classes/LibMTP/Entry.html	/^        <a name="M000086"><\/a>$/;"	a
+M000087	doc/reference/classes/LibMTP/Entry.html	/^        <a name="M000087"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Entry.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Entry.html	/^  function toggleCode( id ) {$/;"	f
+M000088	doc/reference/classes/LibMTP/File.html	/^        <a name="M000088"><\/a>$/;"	a
+M000089	doc/reference/classes/LibMTP/File.html	/^        <a name="M000089"><\/a>$/;"	a
+M000090	doc/reference/classes/LibMTP/File.html	/^        <a name="M000090"><\/a>$/;"	a
+M000091	doc/reference/classes/LibMTP/File.html	/^        <a name="M000091"><\/a>$/;"	a
+M000092	doc/reference/classes/LibMTP/File.html	/^        <a name="M000092"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/File.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/File.html	/^  function toggleCode( id ) {$/;"	f
+M000061	doc/reference/classes/LibMTP/Folder.html	/^        <a name="M000061"><\/a>$/;"	a
+M000062	doc/reference/classes/LibMTP/Folder.html	/^        <a name="M000062"><\/a>$/;"	a
+M000063	doc/reference/classes/LibMTP/Folder.html	/^        <a name="M000063"><\/a>$/;"	a
+M000064	doc/reference/classes/LibMTP/Folder.html	/^        <a name="M000064"><\/a>$/;"	a
+M000065	doc/reference/classes/LibMTP/Folder.html	/^        <a name="M000065"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Folder.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Folder.html	/^  function toggleCode( id ) {$/;"	f
+M000071	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000071"><\/a>$/;"	a
+M000072	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000072"><\/a>$/;"	a
+M000073	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000073"><\/a>$/;"	a
+M000074	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000074"><\/a>$/;"	a
+M000075	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000075"><\/a>$/;"	a
+M000076	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000076"><\/a>$/;"	a
+M000077	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000077"><\/a>$/;"	a
+M000078	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000078"><\/a>$/;"	a
+M000079	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000079"><\/a>$/;"	a
+M000080	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000080"><\/a>$/;"	a
+M000081	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000081"><\/a>$/;"	a
+M000082	doc/reference/classes/LibMTP/Playlist.html	/^        <a name="M000082"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Playlist.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Playlist.html	/^  function toggleCode( id ) {$/;"	f
+M000066	doc/reference/classes/LibMTP/Storage.html	/^        <a name="M000066"><\/a>$/;"	a
+M000067	doc/reference/classes/LibMTP/Storage.html	/^        <a name="M000067"><\/a>$/;"	a
+M000068	doc/reference/classes/LibMTP/Storage.html	/^        <a name="M000068"><\/a>$/;"	a
+M000069	doc/reference/classes/LibMTP/Storage.html	/^        <a name="M000069"><\/a>$/;"	a
+M000070	doc/reference/classes/LibMTP/Storage.html	/^        <a name="M000070"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Storage.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Storage.html	/^  function toggleCode( id ) {$/;"	f
+M000003	doc/reference/classes/LibMTP/Track.html	/^        <a name="M000003"><\/a>$/;"	a
+M000004	doc/reference/classes/LibMTP/Track.html	/^        <a name="M000004"><\/a>$/;"	a
+M000005	doc/reference/classes/LibMTP/Track.html	/^        <a name="M000005"><\/a>$/;"	a
+M000006	doc/reference/classes/LibMTP/Track.html	/^        <a name="M000006"><\/a>$/;"	a
+M000007	doc/reference/classes/LibMTP/Track.html	/^        <a name="M000007"><\/a>$/;"	a
+popupCode	doc/reference/classes/LibMTP/Track.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/classes/LibMTP/Track.html	/^  function toggleCode( id ) {$/;"	f
+popupCode	doc/reference/files/main_c.html	/^  function popupCode( url ) {$/;"	f
+toggleCode	doc/reference/files/main_c.html	/^  function toggleCode( id ) {$/;"	f
+AR	ext/device/LibMTPBase/Makefile	/^AR = ar$/;"	m
+ARCHHDRDIR	ext/device/LibMTPBase/Makefile	/^ARCHHDRDIR    = $(rubyhdrdir)\/$(arch)\/ruby$(target_prefix)$/;"	m
+ARCH_FLAG	ext/device/LibMTPBase/Makefile	/^ARCH_FLAG = $/;"	m
+BINDIR	ext/device/LibMTPBase/Makefile	/^BINDIR        = $(bindir)$/;"	m
+CC	ext/device/LibMTPBase/Makefile	/^CC = gcc$/;"	m
+CFLAGS	ext/device/LibMTPBase/Makefile	/^CFLAGS   = -fPIC -Wall -g -O2 $(ARCH_FLAG)$/;"	m
+CLEANFILES	ext/device/LibMTPBase/Makefile	/^CLEANFILES = mkmf.log$/;"	m
+CLEANLIBS	ext/device/LibMTPBase/Makefile	/^CLEANLIBS     = $(TARGET).so $/;"	m
+CLEANOBJS	ext/device/LibMTPBase/Makefile	/^CLEANOBJS     = *.o  *.bak$/;"	m
+COPY	ext/device/LibMTPBase/Makefile	/^COPY = cp$/;"	m
+COUTFLAG	ext/device/LibMTPBase/Makefile	/^COUTFLAG = -o $/;"	m
+CPPFLAGS	ext/device/LibMTPBase/Makefile	/^CPPFLAGS = -DHAVE_LIBMTP_H -DHAVE_USB_H -D_FORTIFY_SOURCE=2 $(DEFS) $(cppflags)$/;"	m
+CXX	ext/device/LibMTPBase/Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	ext/device/LibMTPBase/Makefile	/^CXXFLAGS = $(CFLAGS) -g -O2 -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -Wall -fno-strict-aliasing$/;"	m
+DEFFILE	ext/device/LibMTPBase/Makefile	/^DEFFILE = $/;"	m
+DEFS	ext/device/LibMTPBase/Makefile	/^DEFS     = $/;"	m
+DISTCLEANDIRS	ext/device/LibMTPBase/Makefile	/^DISTCLEANDIRS = $/;"	m
+DISTCLEANFILES	ext/device/LibMTPBase/Makefile	/^DISTCLEANFILES = $/;"	m
+DLDFLAGS	ext/device/LibMTPBase/Makefile	/^DLDFLAGS = $(ldflags) $(dldflags) $(ARCH_FLAG)$/;"	m
+DLLIB	ext/device/LibMTPBase/Makefile	/^DLLIB = $(TARGET).so$/;"	m
+ECHO	ext/device/LibMTPBase/Makefile	/^ECHO = $(ECHO1:0=@echo)$/;"	m
+ECHO1	ext/device/LibMTPBase/Makefile	/^ECHO1 = $(V:1=@$n)$/;"	m
+EXEEXT	ext/device/LibMTPBase/Makefile	/^EXEEXT = $/;"	m
+EXTSTATIC	ext/device/LibMTPBase/Makefile	/^EXTSTATIC = $/;"	m
+HDRDIR	ext/device/LibMTPBase/Makefile	/^HDRDIR        = $(rubyhdrdir)\/ruby$(target_prefix)$/;"	m
+INCFLAGS	ext/device/LibMTPBase/Makefile	/^INCFLAGS = -I. -I$(arch_hdrdir) -I$(hdrdir)\/ruby\/backward -I$(hdrdir) -I$(srcdir)$/;"	m
+INSTALL	ext/device/LibMTPBase/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	ext/device/LibMTPBase/Makefile	/^INSTALL_DATA = $(INSTALL) -m 644$/;"	m
+INSTALL_PROG	ext/device/LibMTPBase/Makefile	/^INSTALL_PROG = $(INSTALL) -m 0755$/;"	m
+LDSHARED	ext/device/LibMTPBase/Makefile	/^LDSHARED = $(CC) -shared$/;"	m
+LDSHAREDXX	ext/device/LibMTPBase/Makefile	/^LDSHAREDXX = $(CXX) -shared$/;"	m
+LIBPATH	ext/device/LibMTPBase/Makefile	/^LIBPATH =  -L. -L$(libdir)$/;"	m
+LIBRUBY	ext/device/LibMTPBase/Makefile	/^LIBRUBY = $(LIBRUBY_SO)$/;"	m
+LIBRUBYARG_SHARED	ext/device/LibMTPBase/Makefile	/^LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)$/;"	m
+LIBRUBYARG_STATIC	ext/device/LibMTPBase/Makefile	/^LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static$/;"	m
+LIBRUBY_A	ext/device/LibMTPBase/Makefile	/^LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a$/;"	m
+LIBS	ext/device/LibMTPBase/Makefile	/^LIBS = $(LIBRUBYARG_SHARED) -lmtp  -lpthread -lrt -ldl -lcrypt -lm   -lc$/;"	m
+LOCAL_LIBS	ext/device/LibMTPBase/Makefile	/^LOCAL_LIBS = $/;"	m
+MAKEDIRS	ext/device/LibMTPBase/Makefile	/^MAKEDIRS = \/bin\/mkdir -p$/;"	m
+NULLCMD	ext/device/LibMTPBase/Makefile	/^NULLCMD = :$/;"	m
+OBJS	ext/device/LibMTPBase/Makefile	/^OBJS = mtp_playlist.o mtp_main.o mtp_track.o mtp_entry.o mtp_album.o mtp_device.o mtp_file.o mtp_storage.o mtp_folder.o$/;"	m
+OUTFLAG	ext/device/LibMTPBase/Makefile	/^OUTFLAG = -o $/;"	m
+Q	ext/device/LibMTPBase/Makefile	/^Q = $(Q1:0=@)$/;"	m
+Q1	ext/device/LibMTPBase/Makefile	/^Q1 = $(V:1=)$/;"	m
+RM	ext/device/LibMTPBase/Makefile	/^RM = rm -f$/;"	m
+RMDIRS	ext/device/LibMTPBase/Makefile	/^RMDIRS = rmdir --ignore-fail-on-non-empty -p$/;"	m
+RM_RF	ext/device/LibMTPBase/Makefile	/^RM_RF = $(RUBY) -run -e rm -- -rf$/;"	m
+RUBY	ext/device/LibMTPBase/Makefile	/^RUBY = $(ruby)$/;"	m
+RUBYARCHDIR	ext/device/LibMTPBase/Makefile	/^RUBYARCHDIR   = $(sitearchdir)$(target_prefix)$/;"	m
+RUBYCOMMONDIR	ext/device/LibMTPBase/Makefile	/^RUBYCOMMONDIR = $(sitedir)$(target_prefix)$/;"	m
+RUBYLIBDIR	ext/device/LibMTPBase/Makefile	/^RUBYLIBDIR    = $(sitelibdir)$(target_prefix)$/;"	m
+RUBY_BASE_NAME	ext/device/LibMTPBase/Makefile	/^RUBY_BASE_NAME = ruby$/;"	m
+RUBY_EXTCONF_H	ext/device/LibMTPBase/Makefile	/^RUBY_EXTCONF_H = $/;"	m
+RUBY_INSTALL_NAME	ext/device/LibMTPBase/Makefile	/^RUBY_INSTALL_NAME = ruby1.9.1$/;"	m
+RUBY_SO_NAME	ext/device/LibMTPBase/Makefile	/^RUBY_SO_NAME = ruby-1.9.1$/;"	m
+SHELL	ext/device/LibMTPBase/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SRCS	ext/device/LibMTPBase/Makefile	/^SRCS = mtp_playlist.c mtp_main.c mtp_track.c mtp_entry.c mtp_album.c mtp_device.c mtp_file.c mtp_storage.c mtp_folder.c$/;"	m
+STATIC_LIB	ext/device/LibMTPBase/Makefile	/^STATIC_LIB = $/;"	m
+TARGET	ext/device/LibMTPBase/Makefile	/^TARGET = LibMTPBase$/;"	m
+TARGET_SO	ext/device/LibMTPBase/Makefile	/^TARGET_SO     = $(DLLIB)$/;"	m
+V	ext/device/LibMTPBase/Makefile	/^V = 0$/;"	m
+VPATH	ext/device/LibMTPBase/Makefile	/^VPATH = $(srcdir):$(arch_hdrdir)\/ruby:$(hdrdir)\/ruby$/;"	m
+arch	ext/device/LibMTPBase/Makefile	/^arch = x86_64-linux$/;"	m
+arch_hdrdir	ext/device/LibMTPBase/Makefile	/^arch_hdrdir = \/usr\/include\/ruby-1.9.1\/$(arch)$/;"	m
+archdir	ext/device/LibMTPBase/Makefile	/^archdir = $(rubylibdir)\/$(arch)$/;"	m
+bindir	ext/device/LibMTPBase/Makefile	/^bindir = $(exec_prefix)\/bin$/;"	m
+cflags	ext/device/LibMTPBase/Makefile	/^cflags   =  $(optflags) $(debugflags) $(warnflags)$/;"	m
+datadir	ext/device/LibMTPBase/Makefile	/^datadir = $(datarootdir)$/;"	m
+datarootdir	ext/device/LibMTPBase/Makefile	/^datarootdir = $(prefix)\/share$/;"	m
+debugflags	ext/device/LibMTPBase/Makefile	/^debugflags = -ggdb$/;"	m
+dldflags	ext/device/LibMTPBase/Makefile	/^dldflags = $/;"	m
+docdir	ext/device/LibMTPBase/Makefile	/^docdir = $(datarootdir)\/doc\/$(PACKAGE)$/;"	m
+dvidir	ext/device/LibMTPBase/Makefile	/^dvidir = $(docdir)$/;"	m
+exec_prefix	ext/device/LibMTPBase/Makefile	/^exec_prefix = $(prefix)$/;"	m
+extout	ext/device/LibMTPBase/Makefile	/^extout = $/;"	m
+extout_prefix	ext/device/LibMTPBase/Makefile	/^extout_prefix = $/;"	m
+hdrdir	ext/device/LibMTPBase/Makefile	/^hdrdir = \/usr\/include\/ruby-1.9.1$/;"	m
+htmldir	ext/device/LibMTPBase/Makefile	/^htmldir = $(docdir)$/;"	m
+includedir	ext/device/LibMTPBase/Makefile	/^includedir = $(prefix)\/include$/;"	m
+infodir	ext/device/LibMTPBase/Makefile	/^infodir = $(prefix)\/share\/info$/;"	m
+ldflags	ext/device/LibMTPBase/Makefile	/^ldflags  = -L. -Wl,-Bsymbolic-functions -Wl,-z,relro -rdynamic -Wl,-export-dynamic$/;"	m
+libdir	ext/device/LibMTPBase/Makefile	/^libdir = $(exec_prefix)\/lib$/;"	m
+libexecdir	ext/device/LibMTPBase/Makefile	/^libexecdir = $(prefix)\/lib\/ruby1.9.1$/;"	m
+libpath	ext/device/LibMTPBase/Makefile	/^libpath = . $(libdir)$/;"	m
+localedir	ext/device/LibMTPBase/Makefile	/^localedir = $(datarootdir)\/locale$/;"	m
+localstatedir	ext/device/LibMTPBase/Makefile	/^localstatedir = $(DESTDIR)\/var$/;"	m
+mandir	ext/device/LibMTPBase/Makefile	/^mandir = $(prefix)\/share\/man$/;"	m
+n	ext/device/LibMTPBase/Makefile	/^n=$(NULLCMD)$/;"	m
+oldincludedir	ext/device/LibMTPBase/Makefile	/^oldincludedir = $(DESTDIR)\/usr\/include$/;"	m
+optflags	ext/device/LibMTPBase/Makefile	/^optflags = -O3$/;"	m
+pdfdir	ext/device/LibMTPBase/Makefile	/^pdfdir = $(docdir)$/;"	m
+prefix	ext/device/LibMTPBase/Makefile	/^prefix = $(DESTDIR)\/usr$/;"	m
+preload	ext/device/LibMTPBase/Makefile	/^preload = $/;"	m
+psdir	ext/device/LibMTPBase/Makefile	/^psdir = $(docdir)$/;"	m
+ridir	ext/device/LibMTPBase/Makefile	/^ridir = $(datarootdir)\/$(RI_BASE_NAME)$/;"	m
+ruby	ext/device/LibMTPBase/Makefile	/^ruby = \/usr\/bin\/ruby1.9.1$/;"	m
+ruby_version	ext/device/LibMTPBase/Makefile	/^ruby_version = 1.9.1$/;"	m
+rubyhdrdir	ext/device/LibMTPBase/Makefile	/^rubyhdrdir = $(includedir)\/$(RUBY_BASE_NAME)-$(ruby_version)$/;"	m
+rubylibdir	ext/device/LibMTPBase/Makefile	/^rubylibdir = $(rubylibprefix)\/$(ruby_version)$/;"	m
+rubylibprefix	ext/device/LibMTPBase/Makefile	/^rubylibprefix = $(libdir)\/$(RUBY_BASE_NAME)$/;"	m
+sbindir	ext/device/LibMTPBase/Makefile	/^sbindir = $(exec_prefix)\/sbin$/;"	m
+sharedstatedir	ext/device/LibMTPBase/Makefile	/^sharedstatedir = $(prefix)\/com$/;"	m
+sitearch	ext/device/LibMTPBase/Makefile	/^sitearch = $(arch)$/;"	m
+sitearchdir	ext/device/LibMTPBase/Makefile	/^sitearchdir = $(sitelibdir)\/$(sitearch)$/;"	m
+sitedir	ext/device/LibMTPBase/Makefile	/^sitedir = $(DESTDIR)\/usr\/local\/lib\/site_ruby$/;"	m
+sitehdrdir	ext/device/LibMTPBase/Makefile	/^sitehdrdir = $(rubyhdrdir)\/site_ruby$/;"	m
+sitelibdir	ext/device/LibMTPBase/Makefile	/^sitelibdir = $(sitedir)\/$(ruby_version)$/;"	m
+srcdir	ext/device/LibMTPBase/Makefile	/^srcdir = \/home\/omar\/dev\/workspace\/rubyMTP\/ext\/device\/LibMTPBase$/;"	m
+sysconfdir	ext/device/LibMTPBase/Makefile	/^sysconfdir = $(DESTDIR)\/etc$/;"	m
+target_prefix	ext/device/LibMTPBase/Makefile	/^target_prefix = \/device$/;"	m
+topdir	ext/device/LibMTPBase/Makefile	/^topdir = \/usr\/include\/ruby-1.9.1$/;"	m
+vendorarchdir	ext/device/LibMTPBase/Makefile	/^vendorarchdir = $(vendorlibdir)\/$(sitearch)$/;"	m
+vendordir	ext/device/LibMTPBase/Makefile	/^vendordir = $(DESTDIR)\/usr\/lib\/ruby\/vendor_ruby$/;"	m
+vendorhdrdir	ext/device/LibMTPBase/Makefile	/^vendorhdrdir = $(rubyhdrdir)\/vendor_ruby$/;"	m
+vendorlibdir	ext/device/LibMTPBase/Makefile	/^vendorlibdir = $(vendordir)\/$(ruby_version)$/;"	m
+warnflags	ext/device/LibMTPBase/Makefile	/^warnflags = -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration$/;"	m
+Init_LibMTP_Album	ext/device/LibMTPBase/mtp_album.c	/^void Init_LibMTP_Album(void)$/;"	f
+Wrap_LibMTP_Album	ext/device/LibMTPBase/mtp_album.c	/^VALUE Wrap_LibMTP_Album(LIBMTP_album_t *album)$/;"	f
+album_alloc	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_alloc(VALUE klass)$/;"	f	file:
+album_aref	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_aref(VALUE self, VALUE index)$/;"	f	file:
+album_artist	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_artist(VALUE self)$/;"	f	file:
+album_aset	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_aset(VALUE self, VALUE index, VALUE value)$/;"	f	file:
+album_cmp_by_id	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+album_free	ext/device/LibMTPBase/mtp_album.c	/^static void album_free(void *album)$/;"	f	file:
+album_genre	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_genre(VALUE self)$/;"	f	file:
+album_id	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_id(VALUE self)$/;"	f	file:
+album_init	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_init(VALUE self)$/;"	f	file:
+album_length	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_length(VALUE self)$/;"	f	file:
+album_name	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_name(VALUE self)$/;"	f	file:
+album_set_artist	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_set_artist(VALUE self, VALUE value)$/;"	f	file:
+album_set_genre	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_set_genre(VALUE self, VALUE value)$/;"	f	file:
+album_set_id	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_set_id(VALUE self, VALUE value)$/;"	f	file:
+album_set_name	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_set_name(VALUE self, VALUE value)$/;"	f	file:
+album_tracks	ext/device/LibMTPBase/mtp_album.c	/^static VALUE album_tracks(VALUE self)$/;"	f	file:
+cMTPAlbum	ext/device/LibMTPBase/mtp_album.c	/^static VALUE cMTPAlbum;$/;"	v	file:
+Init_LibMTP_Device	ext/device/LibMTPBase/mtp_device.c	/^void Init_LibMTP_Device(void)$/;"	f
+cMTPDevice	ext/device/LibMTPBase/mtp_device.c	/^static VALUE cMTPDevice;$/;"	v	file:
+device_album_create	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_album_create(VALUE self, VALUE parent, VALUE album)$/;"	f	file:
+device_album_get	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_album_get(VALUE self, VALUE id)$/;"	f	file:
+device_album_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_album_list(VALUE self)$/;"	f	file:
+device_album_update	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_album_update(VALUE self, VALUE album)$/;"	f	file:
+device_alloc	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_alloc(VALUE klass)$/;"	f	file:
+device_battery_level	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_battery_level(VALUE self)$/;"	f	file:
+device_certificate	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_certificate(VALUE self)$/;"	f	file:
+device_create	ext/device/LibMTPBase/mtp_device.c	/^VALUE device_create()$/;"	f
+device_delete_object	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_delete_object(VALUE self, VALUE id)$/;"	f	file:
+device_dump	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_dump(VALUE self)$/;"	f	file:
+device_dump_errors	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_dump_errors(VALUE self)$/;"	f	file:
+device_file_get	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_file_get(VALUE self, VALUE id, VALUE pathname)$/;"	f	file:
+device_file_info_get	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_file_info_get(VALUE self, VALUE id)$/;"	f	file:
+device_file_info_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_file_info_list(VALUE self)$/;"	f	file:
+device_file_send	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_file_send(VALUE self, VALUE parent, VALUE pathname, VALUE file)$/;"	f	file:
+device_folder_create	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_folder_create(VALUE self, VALUE parent, VALUE name)$/;"	f	file:
+device_folder_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_folder_list(VALUE self)$/;"	f	file:
+device_free	ext/device/LibMTPBase/mtp_device.c	/^static void device_free(void *device)$/;"	f	file:
+device_friendly_name	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_friendly_name(VALUE self)$/;"	f	file:
+device_init	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_init(VALUE self)$/;"	f	file:
+device_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_list(VALUE klass)$/;"	f	file:
+device_model_name	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_model_name(VALUE self)$/;"	f	file:
+device_playlist_create	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_playlist_create(VALUE self, VALUE parent, VALUE playlist)$/;"	f	file:
+device_playlist_get	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_playlist_get(VALUE self, VALUE id)$/;"	f	file:
+device_playlist_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_playlist_list(VALUE self)$/;"	f	file:
+device_playlist_update	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_playlist_update(VALUE self, VALUE playlist)$/;"	f	file:
+device_reset	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_reset(VALUE self)$/;"	f	file:
+device_reset_errors	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_reset_errors(VALUE self)$/;"	f	file:
+device_secure_time	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_secure_time(VALUE self)$/;"	f	file:
+device_serial_number	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_serial_number(VALUE self)$/;"	f	file:
+device_set_friendly_name	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_set_friendly_name(VALUE self, VALUE orig_name)$/;"	f	file:
+device_set_sync_partner	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_set_sync_partner(VALUE self, VALUE orig_sync_partner)$/;"	f	file:
+device_storage	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_storage(VALUE self, VALUE sort_by)$/;"	f	file:
+device_supported_filetypes	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_supported_filetypes(VALUE self)$/;"	f	file:
+device_sync_partner	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_sync_partner(VALUE self)$/;"	f	file:
+device_track_exists	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_exists(VALUE self, VALUE id)$/;"	f	file:
+device_track_get	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_get(VALUE self, VALUE id)$/;"	f	file:
+device_track_get_file	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_get_file(VALUE self, VALUE id, VALUE pathname)$/;"	f	file:
+device_track_list	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_list(VALUE self)$/;"	f	file:
+device_track_send_file	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_send_file(VALUE self, VALUE parent, VALUE pathname, VALUE track)$/;"	f	file:
+device_track_update	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_track_update(VALUE self, VALUE track)$/;"	f	file:
+device_version	ext/device/LibMTPBase/mtp_device.c	/^static VALUE device_version(VALUE self)$/;"	f	file:
+Get_LibMTP_Entry	ext/device/LibMTPBase/mtp_entry.c	/^VALUE Get_LibMTP_Entry(LIBMTP_device_entry_t *entry)$/;"	f
+Init_LibMTP_Entry	ext/device/LibMTPBase/mtp_entry.c	/^void Init_LibMTP_Entry(void)$/;"	f
+cMTPEntry	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE cMTPEntry;$/;"	v	file:
+entry_alloc	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_alloc(VALUE klass)$/;"	f	file:
+entry_aref	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_aref(VALUE self, VALUE name)$/;"	f	file:
+entry_aset	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_aset(VALUE self, VALUE name, VALUE value)$/;"	f	file:
+entry_cmp_by_id	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+entry_free	ext/device/LibMTPBase/mtp_entry.c	/^static void entry_free(void *ptr)$/;"	f	file:
+entry_init	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+entry_init_copy	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_init_copy(VALUE self, VALUE orig)$/;"	f	file:
+entry_populate	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_populate(VALUE array, VALUE self)$/;"	f	file:
+entry_to_hash	ext/device/LibMTPBase/mtp_entry.c	/^static VALUE entry_to_hash(VALUE self)$/;"	f	file:
+Get_LibMTP_File	ext/device/LibMTPBase/mtp_file.c	/^VALUE Get_LibMTP_File(VALUE value)$/;"	f
+Init_LibMTP_File	ext/device/LibMTPBase/mtp_file.c	/^void Init_LibMTP_File(void)$/;"	f
+Wrap_LibMTP_File	ext/device/LibMTPBase/mtp_file.c	/^VALUE Wrap_LibMTP_File(LIBMTP_file_t *file)$/;"	f
+cMTPFile	ext/device/LibMTPBase/mtp_file.c	/^static VALUE cMTPFile;$/;"	v	file:
+file_alloc	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_alloc(VALUE klass)$/;"	f	file:
+file_aref	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_aref(VALUE self, VALUE name)$/;"	f	file:
+file_aset	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_aset(VALUE self, VALUE name, VALUE value)$/;"	f	file:
+file_cmp_by_id	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+file_free	ext/device/LibMTPBase/mtp_file.c	/^static void file_free(void *file)$/;"	f	file:
+file_init	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+file_populate	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_populate(VALUE array, VALUE self)$/;"	f	file:
+file_to_hash	ext/device/LibMTPBase/mtp_file.c	/^static VALUE file_to_hash(VALUE self)$/;"	f	file:
+Init_LibMTP_Folder	ext/device/LibMTPBase/mtp_folder.c	/^void Init_LibMTP_Folder(void)$/;"	f
+Wrap_LibMTP_Folder	ext/device/LibMTPBase/mtp_folder.c	/^VALUE Wrap_LibMTP_Folder(LIBMTP_folder_t *folder)$/;"	f
+cMTPFolder	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE cMTPFolder;$/;"	v	file:
+folder_alloc	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_alloc(VALUE klass)$/;"	f	file:
+folder_aref	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_aref(VALUE self, VALUE name)$/;"	f	file:
+folder_aset	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_aset(VALUE self, VALUE name, VALUE value)$/;"	f	file:
+folder_cmp_by_id	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+folder_free	ext/device/LibMTPBase/mtp_folder.c	/^static void folder_free(void *folder)$/;"	f	file:
+folder_init	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+folder_populate	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_populate(VALUE array, VALUE self)$/;"	f	file:
+folder_to_hash	ext/device/LibMTPBase/mtp_folder.c	/^static VALUE folder_to_hash(VALUE self)$/;"	f	file:
+Init_LibMTPBase	ext/device/LibMTPBase/mtp_main.c	/^void Init_LibMTPBase()$/;"	f
+mLibMTP	ext/device/LibMTPBase/mtp_main.c	/^VALUE mLibMTP;$/;"	v
+mtp_entry_list	ext/device/LibMTPBase/mtp_main.c	/^static VALUE mtp_entry_list(VALUE self)$/;"	f	file:
+mtp_filetype_desc	ext/device/LibMTPBase/mtp_main.c	/^static VALUE mtp_filetype_desc(VALUE self, VALUE ftype)$/;"	f	file:
+Init_LibMTP_Playlist	ext/device/LibMTPBase/mtp_playlist.c	/^void Init_LibMTP_Playlist(void)$/;"	f
+Wrap_LibMTP_Playlist	ext/device/LibMTPBase/mtp_playlist.c	/^VALUE Wrap_LibMTP_Playlist(LIBMTP_playlist_t *playlist)$/;"	f
+cMTPPlaylist	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE cMTPPlaylist;$/;"	v	file:
+playlist_alloc	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_alloc(VALUE klass)$/;"	f	file:
+playlist_aref	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_aref(VALUE self, VALUE index)$/;"	f	file:
+playlist_aset	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_aset(VALUE self, VALUE index, VALUE value)$/;"	f	file:
+playlist_cmp_by_id	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+playlist_free	ext/device/LibMTPBase/mtp_playlist.c	/^static void playlist_free(void *playlist)$/;"	f	file:
+playlist_id	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_id(VALUE self)$/;"	f	file:
+playlist_init	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_init(VALUE self)$/;"	f	file:
+playlist_length	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_length(VALUE self)$/;"	f	file:
+playlist_name	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_name(VALUE self)$/;"	f	file:
+playlist_set_id	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_set_id(VALUE self, VALUE value)$/;"	f	file:
+playlist_set_name	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_set_name(VALUE self, VALUE value)$/;"	f	file:
+playlist_tracks	ext/device/LibMTPBase/mtp_playlist.c	/^static VALUE playlist_tracks(VALUE self)$/;"	f	file:
+__MTP_PROTO_INCLUDE_H__	ext/device/LibMTPBase/mtp_proto.h	7;"	d
+mLibMTP	ext/device/LibMTPBase/mtp_proto.h	/^RUBY_EXTERN VALUE mLibMTP;  \/* in mtp_main.c *\/$/;"	v
+Init_LibMTP_Storage	ext/device/LibMTPBase/mtp_storage.c	/^void Init_LibMTP_Storage(void)$/;"	f
+cMTPStorage	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE cMTPStorage;$/;"	v	file:
+mtp_storage_create_with_copy	ext/device/LibMTPBase/mtp_storage.c	/^VALUE mtp_storage_create_with_copy(void *storage_ptr)$/;"	f
+storage_alloc	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_alloc(VALUE klass)$/;"	f	file:
+storage_aref	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_aref(VALUE self, VALUE name)$/;"	f	file:
+storage_aset	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_aset(VALUE self, VALUE name, VALUE value)$/;"	f	file:
+storage_cmp_by_id	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+storage_free	ext/device/LibMTPBase/mtp_storage.c	/^static void storage_free(void *ptr)$/;"	f	file:
+storage_init	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+storage_init_copy	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_init_copy(VALUE self, VALUE orig)$/;"	f	file:
+storage_populate	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_populate(VALUE array, VALUE self)$/;"	f	file:
+storage_to_hash	ext/device/LibMTPBase/mtp_storage.c	/^static VALUE storage_to_hash(VALUE self)$/;"	f	file:
+Get_LibMTP_Track	ext/device/LibMTPBase/mtp_track.c	/^VALUE Get_LibMTP_Track(VALUE value)$/;"	f
+Init_LibMTP_Track	ext/device/LibMTPBase/mtp_track.c	/^void Init_LibMTP_Track(void)$/;"	f
+Wrap_LibMTP_Track	ext/device/LibMTPBase/mtp_track.c	/^VALUE Wrap_LibMTP_Track(LIBMTP_track_t *track)$/;"	f
+cMTPTrack	ext/device/LibMTPBase/mtp_track.c	/^static VALUE cMTPTrack;$/;"	v	file:
+track_alloc	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_alloc(VALUE klass)$/;"	f	file:
+track_aref	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_aref(VALUE self, VALUE name)$/;"	f	file:
+track_aset	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_aset(VALUE self, VALUE name, VALUE value)$/;"	f	file:
+track_cmp_by_id	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_cmp_by_id(VALUE self, VALUE other)$/;"	f	file:
+track_free	ext/device/LibMTPBase/mtp_track.c	/^static void track_free(void *track)$/;"	f	file:
+track_init	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+track_init_copy	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_init_copy(VALUE self, VALUE orig)$/;"	f	file:
+track_populate	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_populate(VALUE array, VALUE self)$/;"	f	file:
+track_to_hash	ext/device/LibMTPBase/mtp_track.c	/^static VALUE track_to_hash(VALUE self)$/;"	f	file:
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+LibMTP	lib/device/LibMTP.rb	/^module LibMTP$/;"	m
+connect	lib/device/LibMTP.rb	/^  def self.connect()$/;"	F	class:LibMTP
+connect_each	lib/device/LibMTP.rb	/^  def self.connect_each()$/;"	F	class:LibMTP
+BoolItem	setup.rb	/^class BoolItem < ConfigItem$/;"	c
+ConfigItem	setup.rb	/^class ConfigItem$/;"	c
+ConfigTable_class	setup.rb	/^class ConfigTable_class   # open again$/;"	c
+ConfigTable_class	setup.rb	/^class ConfigTable_class$/;"	c
+Enumerable	setup.rb	/^  module Enumerable$/;"	m
+FileOperations	setup.rb	/^module FileOperations$/;"	m
+HookScriptAPI	setup.rb	/^module HookScriptAPI$/;"	m
+HookUtils	setup.rb	/^module HookUtils$/;"	m
+Installer	setup.rb	/^class Installer$/;"	c	class:ToplevelInstaller.ToplevelInstallerMulti
+MetaConfigAPI	setup.rb	/^module MetaConfigAPI$/;"	m
+PackageSelectionItem	setup.rb	/^class PackageSelectionItem < ConfigItem$/;"	c
+PathItem	setup.rb	/^class PathItem < ConfigItem$/;"	c
+ProgramItem	setup.rb	/^class ProgramItem < ConfigItem$/;"	c
+SelectItem	setup.rb	/^class SelectItem < ConfigItem$/;"	c
+SetupError	setup.rb	/^class SetupError < StandardError; end$/;"	c
+ToplevelInstaller	setup.rb	/^class ToplevelInstaller$/;"	c
+ToplevelInstallerMulti	setup.rb	/^class ToplevelInstallerMulti < ToplevelInstaller$/;"	c	class:ToplevelInstaller
+[]	setup.rb	/^  def [](key)$/;"	f	class:ConfigTable_class
+[]=	setup.rb	/^  def []=(key, val)$/;"	f	class:ConfigTable_class
+add	setup.rb	/^  def add(item)$/;"	f	class:ConfigTable_class
+add_bool_config	setup.rb	/^  def add_bool_config(name, default, desc)$/;"	f	class:MetaConfigAPI
+add_config	setup.rb	/^  def add_config(item)$/;"	f	class:MetaConfigAPI
+add_path_config	setup.rb	/^  def add_path_config(name, default, desc)$/;"	f	class:MetaConfigAPI
+adjust_shebang	setup.rb	/^  def adjust_shebang(path)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+all_dirs_in	setup.rb	/^  def all_dirs_in(dirname)$/;"	f	class:FileOperations
+all_files_in	setup.rb	/^  def all_files_in(dirname)$/;"	f	class:FileOperations
+binread	setup.rb	/^def File.binread(fname)$/;"	F
+bool_config?	setup.rb	/^  def bool_config?(name)$/;"	f	class:MetaConfigAPI
+check	setup.rb	/^  def check(path)$/;"	f	class:PathItem
+check	setup.rb	/^  def check(val)$/;"	f	class:BoolItem
+check	setup.rb	/^  def check(val)$/;"	f	class:ConfigItem
+check	setup.rb	/^  def check(val)$/;"	f	class:PackageSelectionItem
+check	setup.rb	/^  def check(val)$/;"	f	class:SelectItem
+clean_dir_bin	setup.rb	/^  def clean_dir_bin(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+clean_dir_data	setup.rb	/^  def clean_dir_data(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+clean_dir_ext	setup.rb	/^  def clean_dir_ext(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+clean_dir_lib	setup.rb	/^  def clean_dir_lib(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+collect_filenames_auto	setup.rb	/^  def collect_filenames_auto$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+command	setup.rb	/^  def command(str)$/;"	f	class:FileOperations
+config?	setup.rb	/^  def config?(name)$/;"	f	class:MetaConfigAPI
+config_dir_bin	setup.rb	/^  def config_dir_bin(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+config_dir_data	setup.rb	/^  def config_dir_data(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+config_dir_ext	setup.rb	/^  def config_dir_ext(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+config_dir_lib	setup.rb	/^  def config_dir_lib(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+config_names	setup.rb	/^  def config_names$/;"	f	class:MetaConfigAPI
+config_type	setup.rb	/^  def config_type$/;"	f	class:BoolItem
+config_type	setup.rb	/^  def config_type$/;"	f	class:PackageSelectionItem
+config_type	setup.rb	/^  def config_type$/;"	f	class:PathItem
+config_type	setup.rb	/^  def config_type$/;"	f	class:ProgramItem
+config_type	setup.rb	/^  def config_type$/;"	f	class:SelectItem
+curr_objdir	setup.rb	/^  def curr_objdir$/;"	f	class:HookScriptAPI
+curr_srcdir	setup.rb	/^  def curr_srcdir$/;"	f	class:HookScriptAPI
+declare_packages	setup.rb	/^  def declare_packages(list)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+diff?	setup.rb	/^  def diff?(new_content, path)$/;"	f	class:FileOperations
+dir	setup.rb	/^def File.dir?(path)$/;"	F
+distclean_dir_bin	setup.rb	/^  def distclean_dir_bin(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+distclean_dir_ext	setup.rb	/^  def distclean_dir_ext(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+distclean_dir_lib	setup.rb	/^  def distclean_dir_lib(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+dive_into	setup.rb	/^  def dive_into(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+each	setup.rb	/^  def each(&block)$/;"	f	class:ConfigTable_class
+each_selected_installers	setup.rb	/^  def each_selected_installers$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+eval	setup.rb	/^  def eval(table)$/;"	f	class:ConfigItem
+eval_file_ifexist	setup.rb	/^  def eval_file_ifexist(fname)$/;"	f	class:MetaConfigAPI
+exec_clean	setup.rb	/^  def exec_clean$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+exec_clean	setup.rb	/^  def exec_clean$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+exec_clean	setup.rb	/^  def exec_clean$/;"	f	class:ToplevelInstaller.print_usage
+exec_config	setup.rb	/^  def exec_config$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+exec_config	setup.rb	/^  def exec_config$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+exec_config	setup.rb	/^  def exec_config$/;"	f	class:ToplevelInstaller.print_usage
+exec_distclean	setup.rb	/^  def exec_distclean$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+exec_distclean	setup.rb	/^  def exec_distclean$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+exec_distclean	setup.rb	/^  def exec_distclean$/;"	f	class:ToplevelInstaller.print_usage
+exec_install	setup.rb	/^  def exec_install$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+exec_install	setup.rb	/^  def exec_install$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+exec_install	setup.rb	/^  def exec_install$/;"	f	class:ToplevelInstaller.print_usage
+exec_setup	setup.rb	/^  def exec_setup$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+exec_setup	setup.rb	/^  def exec_setup$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+exec_setup	setup.rb	/^  def exec_setup$/;"	f	class:ToplevelInstaller.print_usage
+exec_show	setup.rb	/^  def exec_show$/;"	f	class:ToplevelInstaller.print_usage
+exec_task_traverse	setup.rb	/^  def exec_task_traverse(task)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+existfiles	setup.rb	/^  def existfiles$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+extconf	setup.rb	/^  def extconf$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+extdir?	setup.rb	/^  def extdir?(dir)$/;"	f	class:FileOperations
+extract_selection	setup.rb	/^  def extract_selection(list)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+get_config	setup.rb	/^  def get_config(key)$/;"	f	class:HookScriptAPI
+help_opt	setup.rb	/^  def help_opt$/;"	f	class:BoolItem
+help_opt	setup.rb	/^  def help_opt$/;"	f	class:ConfigItem
+hookfiles	setup.rb	/^  def hookfiles$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+init_installers	setup.rb	/^  def init_installers$/;"	f	class:ToplevelInstaller
+init_installers	setup.rb	/^  def init_installers$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+initialize	setup.rb	/^  def initialize(ardir)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+initialize	setup.rb	/^  def initialize(ardir_root)$/;"	f	class:ToplevelInstaller
+initialize	setup.rb	/^  def initialize(config, opt, srcroot, objroot)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+initialize	setup.rb	/^  def initialize(items)$/;"	f	class:ConfigTable_class
+initialize	setup.rb	/^  def initialize(name, template, default, desc)$/;"	f	class:ConfigItem
+initialize	setup.rb	/^  def initialize(name, template, default, desc)$/;"	f	class:SelectItem
+initialize	setup.rb	/^  def initialize(name, template, default, help_default, desc)$/;"	f	class:PackageSelectionItem
+inspect	setup.rb	/^  def inspect$/;"	f	class:ToplevelInstaller
+inspect	setup.rb	/^  def inspect$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+install	setup.rb	/^  def install(from, dest, mode, prefix = nil)$/;"	f	class:FileOperations
+install_dir_bin	setup.rb	/^  def install_dir_bin(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+install_dir_data	setup.rb	/^  def install_dir_data(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+install_dir_ext	setup.rb	/^  def install_dir_ext(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+install_dir_lib	setup.rb	/^  def install_dir_lib(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+install_files	setup.rb	/^  def install_files(list, dest, mode)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+instance	setup.rb	/^  def ToplevelInstaller.instance$/;"	F	class:ToplevelInstaller
+invoke	setup.rb	/^  def ToplevelInstaller.invoke$/;"	F	class:ToplevelInstaller
+invoke	setup.rb	/^  def invoke$/;"	f	class:ToplevelInstaller
+key?	setup.rb	/^  def key?(name)$/;"	f	class:ConfigTable_class
+load	setup.rb	/^  def load$/;"	f	class:ConfigTable_class
+load_config	setup.rb	/^  def load_config(task)$/;"	f	class:ToplevelInstaller
+lookup	setup.rb	/^  def lookup(name)$/;"	f	class:ConfigTable_class
+make	setup.rb	/^  def make(task = '')$/;"	f	class:FileOperations
+mapdir	setup.rb	/^  def mapdir(filelist)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+mkdir_p	setup.rb	/^  def mkdir_p(dirname, prefix = nil)$/;"	f	class:FileOperations
+move_file	setup.rb	/^  def move_file(src, dest)$/;"	f	class:FileOperations
+multipackage_install?	setup.rb	/^def multipackage_install?$/;"	f
+new	setup.rb	/^  def new$/;"	f	class:ConfigTable_class
+no_harm?	setup.rb	/^  def no_harm?$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+no_harm?	setup.rb	/^  def no_harm?$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+objdir_root	setup.rb	/^  def objdir_root$/;"	f	class:ToplevelInstaller
+objdir_root	setup.rb	/^  def objdir_root$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+parsearg_config	setup.rb	/^  def parsearg_config$/;"	f	class:ToplevelInstaller
+parsearg_global	setup.rb	/^  def parsearg_global$/;"	f	class:ToplevelInstaller
+parsearg_install	setup.rb	/^  def parsearg_install$/;"	f	class:ToplevelInstaller
+parsearg_no_options	setup.rb	/^  def parsearg_no_options$/;"	f	class:ToplevelInstaller
+path_config?	setup.rb	/^  def path_config?(name)$/;"	f	class:MetaConfigAPI
+print_usage	setup.rb	/^  def print_usage(f)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+print_usage	setup.rb	/^  def print_usage(out)$/;"	f	class:ToplevelInstaller
+read	setup.rb	/^  def File.read(fname)$/;"	F
+relpath	setup.rb	/^  def relpath$/;"	f	class:ToplevelInstaller
+relpath	setup.rb	/^  def relpath$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+remove	setup.rb	/^  def remove(name)$/;"	f	class:ConfigTable_class
+remove_config	setup.rb	/^  def remove_config(name)$/;"	f	class:MetaConfigAPI
+rm_f	setup.rb	/^  def rm_f(fname)$/;"	f	class:FileOperations
+rm_rf	setup.rb	/^  def rm_rf(dn)$/;"	f	class:FileOperations
+ruby	setup.rb	/^  def ruby(str)$/;"	f	class:FileOperations
+ruby_extentions	setup.rb	/^  def ruby_extentions(dir)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+ruby_scripts	setup.rb	/^  def ruby_scripts$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+run_hook	setup.rb	/^  def run_hook(name)$/;"	f	class:HookUtils
+run_metaconfigs	setup.rb	/^  def run_metaconfigs$/;"	f	class:ToplevelInstaller
+run_metaconfigs	setup.rb	/^  def run_metaconfigs$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti
+save	setup.rb	/^  def save$/;"	f	class:ConfigTable_class
+savefile	setup.rb	/^  def savefile$/;"	f	class:ConfigTable_class
+set	setup.rb	/^  def set(val)$/;"	f	class:ConfigItem
+set_config	setup.rb	/^  def set_config(key, val)$/;"	f	class:HookScriptAPI
+set_config_default	setup.rb	/^  def set_config_default(name, default)$/;"	f	class:MetaConfigAPI
+setup_dir_bin	setup.rb	/^  def setup_dir_bin(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+setup_dir_data	setup.rb	/^  def setup_dir_data(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+setup_dir_ext	setup.rb	/^  def setup_dir_ext(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+setup_dir_lib	setup.rb	/^  def setup_dir_lib(rel)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+setup_rb_error	setup.rb	/^def setup_rb_error(msg)$/;"	f
+srcdir_root	setup.rb	/^  def srcdir_root$/;"	f	class:ToplevelInstaller
+srcdir_root	setup.rb	/^  def srcdir_root$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+srcdirectories	setup.rb	/^  def srcdirectories(path = '.')$/;"	f	class:HookScriptAPI
+srcdirectory?	setup.rb	/^  def srcdirectory?(path)$/;"	f	class:HookScriptAPI
+srcentries	setup.rb	/^  def srcentries(path = '.')$/;"	f	class:HookScriptAPI
+srcexist?	setup.rb	/^  def srcexist?(path)$/;"	f	class:HookScriptAPI
+srcfile	setup.rb	/^  def srcfile(path)$/;"	f	class:HookScriptAPI
+srcfile?	setup.rb	/^  def srcfile?(path)$/;"	f	class:HookScriptAPI
+srcfiles	setup.rb	/^  def srcfiles(path = '.')$/;"	f	class:HookScriptAPI
+traverse	setup.rb	/^  def traverse(task, rel, mid)$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+try_run_hook	setup.rb	/^  def try_run_hook(fname)$/;"	f	class:HookUtils
+value	setup.rb	/^  def value$/;"	f	class:ConfigItem
+value_config?	setup.rb	/^  def value_config?(name)$/;"	f	class:MetaConfigAPI
+verbose?	setup.rb	/^  def verbose?$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer
+verbose?	setup.rb	/^  def verbose?$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.declare_packages
+verbose_off	setup.rb	/^  def verbose_off$/;"	f	class:ToplevelInstaller.ToplevelInstallerMulti.Installer

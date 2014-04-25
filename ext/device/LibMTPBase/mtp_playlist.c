@@ -71,7 +71,7 @@ static VALUE playlist_alloc(VALUE klass)
 /*
  *  call-seq:
  *     LibMTP::Playlist.new() -> New LibMTP::Playlist object.
- *  
+ *
  *  Creates a new LibMTP::Playlist object.
  *
  */
@@ -85,7 +85,7 @@ static VALUE playlist_init(VALUE self)
 /*
  *  call-seq:
  *     playlist.id -> Playlist ID.
- *  
+ *
  *  Returns the playlist ID as an integer.
  *
  */
@@ -104,7 +104,7 @@ static VALUE playlist_id(VALUE self)
 /*
  *  call-seq:
  *     playlist.id = value -> playlist.
- *  
+ *
  *  Sets the integer playlist ID.
  *
  */
@@ -126,7 +126,7 @@ static VALUE playlist_set_id(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     playlist.name -> Playlist name string.
- *  
+ *
  *  Returns the playlist name as a string.
  *
  */
@@ -153,7 +153,7 @@ static VALUE playlist_name(VALUE self)
 /*
  *  call-seq:
  *     playlist.name = value -> playlist.
- *  
+ *
  *  Sets the playlist name string.
  *
  */
@@ -179,9 +179,9 @@ static VALUE playlist_set_name(VALUE self, VALUE value)
   {
     string = StringValue(value);
 
-    if((RSTRING(string)->ptr != NULL) && (RSTRING(string)->len > 0))
+    if((RSTRING(string)->as.heap.ptr != NULL) && (RSTRING(string)->as.heap.len > 0))
     {
-      playlist->name = strdup(RSTRING(string)->ptr);
+      playlist->name = strdup(RSTRING(string)->as.heap.ptr);
     }
   }
 
@@ -193,7 +193,7 @@ static VALUE playlist_set_name(VALUE self, VALUE value)
 /*
  *  call-seq:
  *     playlist.length -> Playlist length.
- *  
+ *
  *  Returns the number of tracks in the playlist as an integer.
  *
  */
@@ -212,7 +212,7 @@ static VALUE playlist_length(VALUE self)
 /*
  *  call-seq:
  *     playlist.tracks -> Array of track IDs.
- *  
+ *
  *  Returns an array containing a set of integer track IDs.
  *
  */
@@ -241,7 +241,7 @@ static VALUE playlist_tracks(VALUE self)
 /*
  *  call-seq:
  *     playlist[index] -> Track ID for index.
- *  
+ *
  *  Returns the integer track ID for the specified index.
  *
  */
@@ -280,7 +280,7 @@ static VALUE playlist_aref(VALUE self, VALUE index)
 /*
  *  call-seq:
  *     playlist[index] = id -> playlist
- *  
+ *
  *  Sets the track ID specified by index to the given ID.
  *
  */
@@ -315,8 +315,8 @@ static VALUE playlist_aset(VALUE self, VALUE index, VALUE value)
 
 /*
  *  call-seq:
- *     playlist.<=> -> -1, 0, 1 
- *  
+ *     playlist.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Playlist objects by their playlist ID.
  *
  */

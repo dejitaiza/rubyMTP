@@ -151,7 +151,7 @@ static VALUE storage_init_copy(VALUE self, VALUE orig)
 /*
  *  call-seq:
  *     storage.to_hash() -> Hash containing storage metadata
- *  
+ *
  *  Returns a hash containing the metadata for this storage object.
  *
  */
@@ -208,7 +208,7 @@ static VALUE storage_to_hash(VALUE self)
 /*
  *  call-seq:
  *     storage[key] -> Storage value for key.
- *  
+ *
  *  Returns a value for the specified key.
  *
  */
@@ -222,7 +222,7 @@ static VALUE storage_aref(VALUE self, VALUE name)
 /*
  *  call-seq:
  *     storage[key] = value -> value
- *  
+ *
  *  Sets the value for the specified key.
  *
  */
@@ -298,9 +298,9 @@ static VALUE storage_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	storage->StorageDescription = strdup(RSTRING(v_string)->ptr);
+	storage->StorageDescription = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -318,9 +318,9 @@ static VALUE storage_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	storage->VolumeIdentifier = strdup(RSTRING(v_string)->ptr);
+	storage->VolumeIdentifier = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -351,7 +351,7 @@ static VALUE storage_populate(VALUE array, VALUE self)
 /*
  *  call-seq:
  *     LibMTP::Storage.new(hash) -> New LibMTP::Storage object.
- *  
+ *
  *  Creates a new LibMTP::Storage object.  If new is called without any
  *  arguments, the object will be initialized with default values.
  *  Otherwise, a hash can be passed containing the initial values for
@@ -392,8 +392,8 @@ static VALUE storage_init(int argc, VALUE *argv, VALUE self)
 
 /*
  *  call-seq:
- *     storage.<=> -> -1, 0, 1 
- *  
+ *     storage.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Storage objects by their storage ID.
  *
  */

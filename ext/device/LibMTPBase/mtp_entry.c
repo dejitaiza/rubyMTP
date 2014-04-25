@@ -88,7 +88,7 @@ static VALUE entry_alloc(VALUE klass)
 /*
  *  call-seq:
  *     entry.to_hash() -> Hash containing entry metadata
- *  
+ *
  *  Returns a hash containing the metadata for this entry.
  *
  */
@@ -135,7 +135,7 @@ static VALUE entry_to_hash(VALUE self)
 /*
  *  call-seq:
  *     entry[key] -> Entry value for key.
- *  
+ *
  *  Returns a value for the specified key.
  *
  */
@@ -149,7 +149,7 @@ static VALUE entry_aref(VALUE self, VALUE name)
 /*
  *  call-seq:
  *     entry[key] = value -> value
- *  
+ *
  *  Sets the value for the specified key.
  *
  */
@@ -205,9 +205,9 @@ static VALUE entry_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	entry->vendor = strdup(RSTRING(v_string)->ptr);
+	entry->vendor = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -225,9 +225,9 @@ static VALUE entry_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	entry->product = strdup(RSTRING(v_string)->ptr);
+	entry->product = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -258,7 +258,7 @@ static VALUE entry_populate(VALUE array, VALUE self)
 /*
  *  call-seq:
  *     LibMTP::Entry.new(hash) -> New LibMTP::Entry object.
- *  
+ *
  *  Creates a new LibMTP::Entry object.  If new is called without any
  *  arguments, the object will be initialized with default values.
  *  Otherwise, a hash can be passed containing the initial values for
@@ -353,8 +353,8 @@ static VALUE entry_init_copy(VALUE self, VALUE orig)
 
 /*
  *  call-seq:
- *     entry.<=> -> -1, 0, 1 
- *  
+ *     entry.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Entry objects by their entry ID.
  *
  */

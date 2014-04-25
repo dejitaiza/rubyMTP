@@ -78,7 +78,7 @@ static VALUE device_init(VALUE self)
 /*
  *  call-seq:
  *     device.dump() -> device
- *  
+ *
  *  Displays a listing of device information on standard output.
  *
  *  Wraps: <i>LIBMTP_Dump_Device_Info</i>
@@ -102,7 +102,7 @@ static VALUE device_dump(VALUE self)
 /*
  *  call-seq:
  *     device.dump_errors() -> device
- *  
+ *
  *  Displays a listing of error information on standard output.
  *
  *  Wraps: <i>LIBMTP_Dump_Errorstack</i>
@@ -126,7 +126,7 @@ static VALUE device_dump_errors(VALUE self)
 /*
  *  call-seq:
  *     device.reset_errors() -> device
- *  
+ *
  *  Resets the error information for a device.
  *
  *  Wraps: <i>LIBMTP_Clear_Errorstack</i>
@@ -150,7 +150,7 @@ static VALUE device_reset_errors(VALUE self)
 /*
  *  call-seq:
  *     device.reset() -> device
- *  
+ *
  *  Resets the device if possible.  Raises I/O Exception on failure.
  *
  *  Wraps: <i>LIBMTP_Reset_Device</i>
@@ -181,7 +181,7 @@ static VALUE device_reset(VALUE self)
 /*
  *  call-seq:
  *     device.model_name() -> model name string
- *  
+ *
  *  Returns the model name of an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Modelname</i>
@@ -216,7 +216,7 @@ static VALUE device_model_name(VALUE self)
 /*
  *  call-seq:
  *     device.serial_number() -> Serial number string
- *  
+ *
  *  Returns the serial number of an MTP device as a string.
  *
  *  Wraps: <i>LIBMTP_Get_Serialnumber</i>
@@ -251,7 +251,7 @@ static VALUE device_serial_number(VALUE self)
 /*
  *  call-seq:
  *     device.version() -> version string
- *  
+ *
  *  Returns the hardware and firmware version of an MTP device as a string
  *
  *  Wraps: <i>LIBMTP_Get_Deviceversion</i>
@@ -286,7 +286,7 @@ static VALUE device_version(VALUE self)
 /*
  *  call-seq:
  *     device.friendly_name() -> Friendly name string
- *  
+ *
  *  Returns the <i>friendly name</i> of an MTP device as a string.
  *  This is a name assigned by the user to a device.
  *
@@ -322,7 +322,7 @@ static VALUE device_friendly_name(VALUE self)
 /*
  *  call-seq:
  *     device.friendly_name = string  -> device
- *  
+ *
  *  Sets the <i>friendly name</i> string for a device.
  *
  *  Wraps: <i>LIBMTP_Set_Friendlyname</i>
@@ -342,9 +342,9 @@ static VALUE device_set_friendly_name(VALUE self, VALUE orig_name)
 
   name = StringValue(orig_name);
 
-  name_ptr = RSTRING(name)->ptr;
+  name_ptr = RSTRING(name)->as.heap.ptr;
 
-  if((name_ptr != NULL) && (RSTRING(name)->len > 0))
+  if((name_ptr != NULL) && (RSTRING(name)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device);
 
@@ -365,7 +365,7 @@ static VALUE device_set_friendly_name(VALUE self, VALUE orig_name)
 /*
  *  call-seq:
  *     device.sync_partner() -> Synchronization partner string
- *  
+ *
  *  Returns the synchronization partner of an MTP device as a string.
  *
  *  Wraps: <i>LIBMTP_Get_Syncpartner</i>
@@ -400,7 +400,7 @@ static VALUE device_sync_partner(VALUE self)
 /*
  *  call-seq:
  *     device.sync_partner = string -> device
- *  
+ *
  *  Sets the synchronization partner of an MTP device as a string.
  *
  *  Wraps: <i>LIBMTP_Set_Syncpartner</i>
@@ -420,9 +420,9 @@ static VALUE device_set_sync_partner(VALUE self, VALUE orig_sync_partner)
 
   sync_partner = StringValue(orig_sync_partner);
 
-  sync_partner_ptr = RSTRING(sync_partner)->ptr;
+  sync_partner_ptr = RSTRING(sync_partner)->as.heap.ptr;
 
-  if((sync_partner_ptr != NULL) && (RSTRING(sync_partner)->len > 0))
+  if((sync_partner_ptr != NULL) && (RSTRING(sync_partner)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device);
 
@@ -443,7 +443,7 @@ static VALUE device_set_sync_partner(VALUE self, VALUE orig_sync_partner)
 /*
  *  call-seq:
  *     device.battery_level() -> Array [maximum level, current level]
- *  
+ *
  *  Returns the maximum and current battery level as a two element array.
  *
  *  Wraps: <i>LIBMTP_Get_Batterylevel</i>
@@ -486,7 +486,7 @@ static VALUE device_battery_level(VALUE self)
 /*
  *  call-seq:
  *     device.secure_time() -> Secure time string.
- *  
+ *
  *  Returns the secure time as a string that contains an XML document.
  *
  *  Wraps: <i>LIBMTP_Get_Secure_Time</i>
@@ -527,7 +527,7 @@ static VALUE device_secure_time(VALUE self)
 /*
  *  call-seq:
  *     device.certificate() -> Public key certificate string
- *  
+ *
  *  Returns a string that contains the public key certificate for an MTP device.
  *  This string contains an XML document.
  *
@@ -569,7 +569,7 @@ static VALUE device_certificate(VALUE self)
 /*
  *  call-seq:
  *     device.supported_filetypes() -> Array of supported filetypes.
- *  
+ *
  *  Returns an array of supported filetypes for an MTP device.
  *  The filetypes are defined as constants in the LibMTP module.
  *  A filetype can be converted to a string by calling LibMTP::filetype_desc().
@@ -627,7 +627,7 @@ static VALUE device_supported_filetypes(VALUE self)
 /*
  *  call-seq:
  *     device.storage() -> Array of Storage objects.
- *  
+ *
  *  Returns an array of LibMTP::Storage objects.
  *
  *  Wraps: <i>LIBMTP_Get_Storage</i>
@@ -673,7 +673,7 @@ static VALUE device_storage(VALUE self, VALUE sort_by)
 /*
  *  call-seq:
  *     device.delete_object(id) -> device
- *  
+ *
  *  Deletes the object with the specified ID from an MTP device.
  *  The object could be a track, a file, a playlist, etc.
  *
@@ -705,7 +705,7 @@ static VALUE device_delete_object(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.album_get(id) -> LibMTP::Album object.
- *  
+ *
  *  Returns the LibMTP::Album object with the specified album ID from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Album</i>
@@ -742,7 +742,7 @@ static VALUE device_album_get(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.album_list() -> Array of LibMTP::Album objects.
- *  
+ *
  *  Returns an array of LibMTP::Album objects from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Album_List</i>
@@ -788,7 +788,7 @@ static VALUE device_album_list(VALUE self)
 /*
  *  call-seq:
  *     device.album_create(parent, album) -> device
- *  
+ *
  *  Creates an album with the specified parent on an MTP device for the specified LibMTP::Album object.
  *
  *  Wraps: <i>LIBMTP_Create_New_Album</i>
@@ -808,7 +808,7 @@ static VALUE device_album_create(VALUE self, VALUE parent, VALUE album)
 
   Data_Get_Struct(album, LIBMTP_album_t, album_ptr);
 
-  status = LIBMTP_Create_New_Album(device_ptr, album_ptr, NUM2INT(parent));
+  status = LIBMTP_Create_New_Album(device_ptr, album_ptr);
 
   if(status != 0)
   {
@@ -823,7 +823,7 @@ static VALUE device_album_create(VALUE self, VALUE parent, VALUE album)
 /*
  *  call-seq:
  *     device.album_update(album) -> device
- *  
+ *
  *  Updates the album information on an MTP device for the specified LibMTP::Album object.
  *
  *  Wraps: <i>LIBMTP_Update_Album</i>
@@ -858,7 +858,7 @@ static VALUE device_album_update(VALUE self, VALUE album)
 /*
  *  call-seq:
  *     device.file_info_get(id) -> LibMTP::File object.
- *  
+ *
  *  Returns the LibMTP::File object with the specified file ID.
  *
  *  Wraps: <i>LIBMTP_Get_Filemetadata</i>
@@ -895,7 +895,7 @@ static VALUE device_file_info_get(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.file_info_list() -> Array of LibMTP::File objects.
- *  
+ *
  *  Returns an array of LibMTP::File objects from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Filelisting_With_Callback</i>
@@ -941,7 +941,7 @@ static VALUE device_file_info_list(VALUE self)
 /*
  *  call-seq:
  *     device.file_get(id, pathname) -> device
- *  
+ *
  *  Retrieves the file with the specified file ID and writes it to the specified path.
  *
  *  Wraps: <i>LIBMTP_Get_File_To_File</i>
@@ -959,11 +959,11 @@ static VALUE device_file_get(VALUE self, VALUE id, VALUE pathname)
 
   path = StringValue(pathname);
 
-  if((RSTRING(path)->ptr != NULL) && (RSTRING(path)->len > 0))
+  if((RSTRING(path)->as.heap.ptr != NULL) && (RSTRING(path)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device_ptr);
 
-    status = LIBMTP_Get_File_To_File(device_ptr, NUM2UINT(id), RSTRING(path)->ptr, NULL, NULL);
+    status = LIBMTP_Get_File_To_File(device_ptr, NUM2UINT(id), RSTRING(path)->as.heap.ptr, NULL, NULL);
 
     if(status != 0)
     {
@@ -1002,13 +1002,13 @@ static VALUE device_file_send(VALUE self, VALUE parent, VALUE pathname, VALUE fi
 
   path = StringValue(pathname);
 
-  if((RSTRING(path)->ptr != NULL) && (RSTRING(path)->len > 0))
+  if((RSTRING(path)->as.heap.ptr != NULL) && (RSTRING(path)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device_ptr);
 
     Data_Get_Struct(Get_LibMTP_File(file), LIBMTP_file_t, file_ptr);
 
-    status = LIBMTP_Send_File_From_File(device_ptr, RSTRING(path)->ptr, file_ptr, NULL, NULL, NUM2UINT(parent));
+    status = LIBMTP_Send_File_From_File(device_ptr, RSTRING(path)->as.heap.ptr, file_ptr, NULL, NULL);
 
     if(status != 0)
     {
@@ -1024,7 +1024,7 @@ static VALUE device_file_send(VALUE self, VALUE parent, VALUE pathname, VALUE fi
 /*
  *  call-seq:
  *     device.folder_list() -> Array of LibMTP::Folder objects.
- *  
+ *
  *  Returns an array of LibMTP::Folder from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Folder_List</i>
@@ -1070,7 +1070,7 @@ static VALUE device_folder_list(VALUE self)
 /*
  *  call-seq:
  *     device.folder_create(parent, name) -> folder ID
- *  
+ *
  *  Creates a folder with the specified name and parent ID on an MTP device.
  *
  *  Returns the folder ID of the created folder.
@@ -1092,11 +1092,12 @@ static VALUE device_folder_create(VALUE self, VALUE parent, VALUE name)
 
   string = StringValue(name);
 
-  if((RSTRING(string)->ptr != NULL) && (RSTRING(string)->len > 0))
+  if((RSTRING(string)->as.heap.ptr != NULL) && (RSTRING(string)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device_ptr);
 
-    id = LIBMTP_Create_Folder(device_ptr, RSTRING(string)->ptr, NUM2UINT(parent));
+    id = LIBMTP_Create_Folder(device_ptr, RSTRING(string)->as.heap.ptr,0,0);
+
 
     if(id != 0)
     {
@@ -1116,7 +1117,7 @@ static VALUE device_folder_create(VALUE self, VALUE parent, VALUE name)
 /*
  *  call-seq:
  *     device.playlist_get(id) -> LibMTP::Playlist object.
- *  
+ *
  *  Returns the LibMTP::Playlist object with the specified ID from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Playlist</i>
@@ -1153,7 +1154,7 @@ static VALUE device_playlist_get(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.playlist_list() -> Array of LibMTP::Playlist objects.
- *  
+ *
  *  Returns an array of LibMTP::Playlist objects from an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Playlist_List</i>
@@ -1199,7 +1200,7 @@ static VALUE device_playlist_list(VALUE self)
 /*
  *  call-seq:
  *     device.playlist_create(parent, playlist) -> device
- *  
+ *
  *  Creates the specified playlist on an MTP device with the specified parent ID.
  *
  *  Wraps: <i>LIBMTP_Create_New_Playlist</i>
@@ -1219,7 +1220,7 @@ static VALUE device_playlist_create(VALUE self, VALUE parent, VALUE playlist)
 
   Data_Get_Struct(playlist, LIBMTP_playlist_t, playlist_ptr);
 
-  status = LIBMTP_Create_New_Playlist(device_ptr, playlist_ptr, NUM2INT(parent));
+  status = LIBMTP_Create_New_Playlist(device_ptr, playlist_ptr);
 
   if(status != 0)
   {
@@ -1234,7 +1235,7 @@ static VALUE device_playlist_create(VALUE self, VALUE parent, VALUE playlist)
 /*
  *  call-seq:
  *     device.playlist_update(playlist) -> device
- *  
+ *
  *  Updates a playlist on an MTP device.
  *
  *  Wraps: <i>LIBMTP_Update_Playlist</i>
@@ -1269,7 +1270,7 @@ static VALUE device_playlist_update(VALUE self, VALUE playlist)
 /*
  *  call-seq:
  *     device.track_get(id) -> LibMTP::Track object
- *  
+ *
  *  Returns the Track object with the specified ID.
  *
  *  Wraps: <i>LIBMTP_Get_Trackmetadata</i>
@@ -1306,7 +1307,7 @@ static VALUE device_track_get(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.track_list() -> Array of LibMTP::Track objects
- *  
+ *
  *  Returns an array of all the tracks on an MTP device.
  *
  *  Wraps: <i>LIBMTP_Get_Tracklisting_With_Callback</i>
@@ -1352,7 +1353,7 @@ static VALUE device_track_list(VALUE self)
 /*
  *  call-seq:
  *     device.track_update(track) -> device
- *  
+ *
  *  Updates the metadata for a Track.
  *
  *  If <i>track</i> contains a hash, a LibMTP::Track object will be created from the hash data.
@@ -1389,7 +1390,7 @@ static VALUE device_track_update(VALUE self, VALUE track)
 /*
  *  call-seq:
  *     device.track_exists?(id) -> True or False
- *  
+ *
  *  Returns True if a track with the specified ID exists.
  *
  *  Wraps: <i>LIBMTP_Track_Exists</i>
@@ -1415,7 +1416,7 @@ static VALUE device_track_exists(VALUE self, VALUE id)
 /*
  *  call-seq:
  *     device.track_get_file(id, pathname) -> device
- *  
+ *
  *  Retrieves the file with the specified track ID and writes it to the specified path.
  *
  *  Wraps: <i>LIBMTP_Get_Track_To_File</i>
@@ -1433,11 +1434,11 @@ static VALUE device_track_get_file(VALUE self, VALUE id, VALUE pathname)
 
   path = StringValue(pathname);
 
-  if((RSTRING(path)->ptr != NULL) && (RSTRING(path)->len > 0))
+  if((RSTRING(path)->as.heap.ptr != NULL) && (RSTRING(path)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device_ptr);
 
-    status = LIBMTP_Get_Track_To_File(device_ptr, NUM2UINT(id), RSTRING(path)->ptr, NULL, NULL);
+    status = LIBMTP_Get_Track_To_File(device_ptr, NUM2UINT(id), RSTRING(path)->as.heap.ptr, NULL, NULL);
 
     if(status != 0)
     {
@@ -1453,7 +1454,7 @@ static VALUE device_track_get_file(VALUE self, VALUE id, VALUE pathname)
 /*
  *  call-seq:
  *     device.track_send_file(parent, pathname, track) -> device
- *  
+ *
  *  Sends the file specified by <i>path</i> with the track metadata specified by <i>track</i>.
  *
  *  If <i>track</i> contains a hash, a LibMTP::Track object will be created from the hash data.
@@ -1475,14 +1476,13 @@ static VALUE device_track_send_file(VALUE self, VALUE parent, VALUE pathname, VA
 
   path = StringValue(pathname);
 
-  if((RSTRING(path)->ptr != NULL) && (RSTRING(path)->len > 0))
+  if((RSTRING(path)->as.heap.ptr != NULL) && (RSTRING(path)->as.heap.len > 0))
   {
     Data_Get_Struct(self, LIBMTP_mtpdevice_t, device_ptr);
 
     Data_Get_Struct(Get_LibMTP_Track(track), LIBMTP_track_t, track_ptr);
 
-    status = LIBMTP_Send_Track_From_File(device_ptr, RSTRING(path)->ptr, track_ptr, NULL, NULL, NUM2UINT(parent));
-
+    status = LIBMTP_Send_Track_From_File(device_ptr, RSTRING(path)->as.heap.ptr, track_ptr, NULL, NULL);
     if(status != 0)
     {
       rb_raise(rb_eIOError, "Unable to send track");

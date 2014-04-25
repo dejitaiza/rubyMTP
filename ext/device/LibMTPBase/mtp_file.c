@@ -72,7 +72,7 @@ static VALUE file_alloc(VALUE klass)
 /*
  *  call-seq:
  *     file.to_hash() -> Hash containing file metadata
- *  
+ *
  *  Returns a hash containing the metadata for this file.
  *
  */
@@ -111,7 +111,7 @@ static VALUE file_to_hash(VALUE self)
 /*
  *  call-seq:
  *     file[key] -> File value for key.
- *  
+ *
  *  Returns a value for the specified key.
  *
  */
@@ -125,7 +125,7 @@ static VALUE file_aref(VALUE self, VALUE name)
 /*
  *  call-seq:
  *     file[key] = value -> value
- *  
+ *
  *  Sets the value for the specified key.
  *
  */
@@ -177,9 +177,9 @@ static VALUE file_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	file->filename = strdup(RSTRING(v_string)->ptr);
+	file->filename = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -218,7 +218,7 @@ static VALUE file_populate(VALUE array, VALUE self)
 /*
  *  call-seq:
  *     LibMTP::File.new(hash) -> New LibMTP::File object.
- *  
+ *
  *  Creates a new LibMTP::File object.  If new is called without any
  *  arguments, the object will be initialized with default values.
  *  Otherwise, a hash can be passed containing the initial values for
@@ -259,8 +259,8 @@ static VALUE file_init(int argc, VALUE *argv, VALUE self)
 
 /*
  *  call-seq:
- *     file.<=> -> -1, 0, 1 
- *  
+ *     file.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::File objects by their file ID.
  *
  */

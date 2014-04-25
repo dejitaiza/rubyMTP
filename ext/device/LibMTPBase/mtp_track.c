@@ -72,7 +72,7 @@ static VALUE track_alloc(VALUE klass)
 /*
  *  call-seq:
  *     track.to_hash() -> Hash containing track metadata
- *  
+ *
  *  Returns a hash containing the metadata for this track.
  *
  */
@@ -175,7 +175,7 @@ static VALUE track_to_hash(VALUE self)
 /*
  *  call-seq:
  *     track[key] -> Track value for key.
- *  
+ *
  *  Returns a value for the specified key.
  *
  */
@@ -189,7 +189,7 @@ static VALUE track_aref(VALUE self, VALUE name)
 /*
  *  call-seq:
  *     track[key] = value -> value
- *  
+ *
  *  Sets the value for the specified key.
  *
  */
@@ -241,9 +241,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->title = strdup(RSTRING(v_string)->ptr);
+	track->title = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -261,9 +261,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->artist = strdup(RSTRING(v_string)->ptr);
+	track->artist = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -281,9 +281,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->genre = strdup(RSTRING(v_string)->ptr);
+	track->genre = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -301,9 +301,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->album = strdup(RSTRING(v_string)->ptr);
+	track->album = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -321,9 +321,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->date = strdup(RSTRING(v_string)->ptr);
+	track->date = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -377,9 +377,9 @@ static VALUE track_aset(VALUE self, VALUE name, VALUE value)
     {
       v_string = StringValue(value);
 
-      if(RSTRING(v_string)->ptr != NULL)
+      if(RSTRING(v_string)->as.heap.ptr != NULL)
       {
-	track->filename = strdup(RSTRING(v_string)->ptr);
+	track->filename = strdup(RSTRING(v_string)->as.heap.ptr);
       }
     }
   }
@@ -418,7 +418,7 @@ static VALUE track_populate(VALUE array, VALUE self)
 /*
  *  call-seq:
  *     LibMTP::Track.new(hash) -> New LibMTP::Track object.
- *  
+ *
  *  Creates a new LibMTP::Track object.  If new is called without any
  *  arguments, the object will be initialized with default values.
  *  Otherwise, a hash can be passed containing the initial values for
@@ -549,8 +549,8 @@ static VALUE track_init_copy(VALUE self, VALUE orig)
 
 /*
  *  call-seq:
- *     track.<=> -> -1, 0, 1 
- *  
+ *     track.<=> -> -1, 0, 1
+ *
  *  Compares two LibMTP::Track objects by their track ID.
  *
  */
@@ -626,7 +626,7 @@ static VALUE track_cmp_by_id(VALUE self, VALUE other)
  *
  *  bitrate_type    =>     Integer bit rate type
  *
- *  rating          =>    Integer 
+ *  rating          =>    Integer
  *
  *  use_count       =>     Integer use count
  *
